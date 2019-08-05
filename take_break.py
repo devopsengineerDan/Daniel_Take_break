@@ -7,9 +7,10 @@ print('This program started on' + time.ctime())
 def take_break():
     print('one break comes after two hours\n')
     num_breaks = int(input('how many breaks do you want?: '))
+    break_duaration = int(input('After how many hours do you need the break?: '))
     breaks = 0
     while (breaks < num_breaks):
-        uin = 2*60*60
+        uin = break_duaration*60*60
         when_to_stop = abs(int(uin))
 
         while when_to_stop >= 0:
