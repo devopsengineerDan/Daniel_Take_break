@@ -1,0 +1,15 @@
+autopep8==1.4.4
+BreakApp==0.10
+Click==7.0
+colorama==0.4.1
+inflect==2.1.0
+pkg-resources==0.0.0
+prompt-toolkit==1.0.14
+pycodestyle==2.5.0
+pyfiglet==0.8.post1
+Pygments==2.4.2
+PyInquirer==1.0.3
+regex==2019.6.8
+six==1.12.0
+termcolor==1.1.0
+wcwidth==0.1.7
