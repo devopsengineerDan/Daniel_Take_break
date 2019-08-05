@@ -1,19 +1,18 @@
 import webbrowser
 import time
 
-print('This program started on' + time.ctime())
-
 
 def take_break():
     print('one break comes after two hours\n')
     num_breaks = int(input('how many breaks do you want?: '))
-    break_duaration = int(input('After how many hours do you need the break?: '))
+    break_duaration = int(
+        input('After how many hours do you need the break?: '))
     breaks = 0
-    while (breaks < num_breaks):
-        uin = break_duaration*60*60
+    while (num_breaks > breaks):
+        uin = break_duaration
         when_to_stop = abs(int(uin))
 
-        while when_to_stop >= 0:
+        while when_to_stop > 0:
             m, s = divmod(when_to_stop, 60)
             h, m = divmod(m, 60)
             time_left = str(h).zfill(2) + ":" + \
@@ -30,7 +29,8 @@ def take_break():
                         new=0, autoraise=True)
                 else:
                     break
-    breaks += 1
+        num_breaks -= 1
+    print("No more breaks for you today, Goodbye. See you again")
 
 
 take_break()
