@@ -7,7 +7,7 @@ This a commandline application that helps you to take a break
 - [python3](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/installing/)
 - [Virtualenv](https://virtualenv.pypa.io/en/latest/installation/)
-- [python3-dev](https://www.google.com/search?ei=-nxIXbaZCJG4gwf5xbsQ&q=python3-dev+installation&oq=python3-dev+installation&gs_l=psy-ab.3..0i22i30l6.31084.33914..35069...0.0..0.324.1505.2-3j2......0....1..gws-wiz.......0i71j35i304i39j0i13j0i13i5i30j0i8i13i30.OCLw3x0GXkM&ved=0ahUKEwi2_v6ntezjAhUR3OAKHfniDgIQ4dUDCAo&uact=5)
+- [python3-dev](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-16-04-server)
 - [cup of coffee](https://www.wikihow.com/Make-Instant-Coffee)
 
 ## Installation
