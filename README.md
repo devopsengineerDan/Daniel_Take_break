@@ -15,7 +15,7 @@ This a commandline application that helps you to take a break
 follow the instruction carefully
 
 1. `git clone the repo` and into Take_break
-2. create a virtual environment by running `virtualenv -p python3-dev venv`
+2. create a virtual environment by running `virtualenv -p python3 venv`
 3. initialize the env by running `source venv/bin/activate`
 4. install the dependencies `pip install -r requirements.txt`
 5. bundle the cli-app by running `python setup.py bdist_wheel --universal`
