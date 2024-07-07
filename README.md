@@ -32,7 +32,9 @@ follow the instruction carefully
 3. install the dependencies `pipenv install`
 4. bundle the cli-app by running `python3 setup.py bdist_wheel --universal`
 5. the pip install break-app `pipenv install dist/BreakApp-0.10-py2.py3-none-any.whl`
-6. DEBUG ERROR
+6. run the app `breakapp`
+   
+   DEBUG ERROR
    Go to folder
    cd /usr/lib/python3.10/collections/__init__.py
    Edit
@@ -42,6 +44,7 @@ follow the instruction carefully
    except ImportError:
     pass
    --------------------------------------------------------------------
-7. then run the app `breakapp`
+   
+7. run the app `breakapp`
 
 
