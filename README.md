@@ -18,9 +18,14 @@ follow the instruction carefully
 2. create a virtual environment by running `virtualenv -p python3 venv`
 3. initialize the env by running `source venv/bin/activate`
 4. install the dependencies `pip install -r requirements.txt`
-5. bundle the cli-app by running `python setup.py bdist_wheel --universal`
+5. bundle the cli-app by running `python3 setup.py bdist_wheel --universal`
 6. the pip install break-app `pip install dist/BreakApp-0.10-py2.py3-none-any.whl`
 7. then run the app `breakapp`
+
+---------------------------------------------------------------------------------------
+   
+Build setup.py `python3 setup.py build`
+Build setup.py `python3 setup.py install`
 
 ## python version 3.10 +
 
@@ -47,4 +52,6 @@ follow the instruction carefully
    
 7. run the app `breakapp`
 
+---------------------------------------------------------------------------------------
 
+Build setup.py `python3 -m build`
