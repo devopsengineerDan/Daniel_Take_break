@@ -19,11 +19,12 @@ follow the instruction carefully
 3. initialize the env by running `source venv/bin/activate`
 4. install the dependencies `pip install -r requirements.txt`
 5. bundle the cli-app by running `python3 setup.py bdist_wheel --universal`
-6. the pip install break-app `pip install dist/BreakApp-0.10-py2.py3-none-any.whl`
+6. then install break-app `pip install dist/BreakApp-0.10-py2.py3-none-any.whl`
 7. then run the app `breakapp`
 
 ---------------------------------------------------------------------------------------
-   
+ ## Debugging
+  
 Build setup.py  `python3 setup.py build --sdist` `python3 setup.py build --wheel`
 Install setup.py dependencies `python3 setup.py install`
 
@@ -38,7 +39,7 @@ follow the instruction carefully
 2. create a virtual environment by running and initialize the env by running `pipenv shell`
 3. install the dependencies `pipenv install`
 4. bundle the cli-app by running `python3 setup.py bdist_wheel --universal`
-5. the pip install break-app `pipenv install dist/BreakApp-0.10-py2.py3-none-any.whl`
+5. then install break-app `pipenv install dist/BreakApp-0.10-py2.py3-none-any.whl`
 6. run the app `breakapp`
    
    DEBUG ERROR
@@ -56,4 +57,7 @@ follow the instruction carefully
 
 ---------------------------------------------------------------------------------------
 
-Build setup.py `python3 -m build`
+## python version 3.10 +  build - After Deprecation of setup.py
+
+Build setup.py `python3 -m build --sdist` `python3 -m build --wheel` 
+
