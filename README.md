@@ -59,5 +59,5 @@ follow the instruction carefully
 
 ## python version 3.10 +  build - After Deprecation of setup.py
 
-Build setup.py `python3 -m build --sdist` `python3 -m build --wheel` 
+Build toml `python3 -m build --sdist` `python3 -m build --wheel` 
 
