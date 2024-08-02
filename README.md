@@ -42,22 +42,44 @@ follow the instruction carefully
 5. then install break-app `pipenv install dist/BreakApp-0.10-py2.py3-none-any.whl`
 6. run the app `breakapp`
    
+ ```  
    DEBUG ERROR
    Go to folder
    cd /usr/lib/python3.10/collections/__init__.py
    Edit
    --------------------------------------------------------------------
-   try:
+try:
     from collections.abc import Mapping
-   except ImportError:
+except ImportError:
     pass
+
    --------------------------------------------------------------------
-   
+ ```
+  
 7. run the app `breakapp`
 
 ---------------------------------------------------------------------------------------
 
 ## python version 3.10 +  build - After Deprecation of setup.py
+1. `git clone the repo` and into Take_break
+2. create a virtual environment by running and initialize the env by running `pipenv shell`
+3. install the dependencies `pipenv install`
+4. Python3 build backward-compatibility with setup.py `python3 -m build --sdist` `python3 -m build --wheel` 
+5. then install break-app `pipenv install dist/BreakApp-0.10-py2.py3-none-any.whl`
+6. run the app `breakapp`
+ ```  
+   DEBUG ERROR
+   Go to folder
+   cd /usr/lib/python3.10/collections/__init__.py
+   Edit
+   --------------------------------------------------------------------
+try:
+    from collections.abc import Mapping
+except ImportError:
+    pass
 
-Build toml `python3 -m build --sdist` `python3 -m build --wheel` 
-
+   --------------------------------------------------------------------
+ ```
+  
+7. run the app `breakapp`
+   
