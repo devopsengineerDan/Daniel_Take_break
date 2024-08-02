@@ -24,8 +24,9 @@ follow the instruction carefully
 
 ---------------------------------------------------------------------------------------
    
-Build setup.py `python3 setup.py build`
+Build setup.py  `python3 setup.py build --sdist` `python3 setup.py build --wheel`
 Install setup.py dependencies `python3 setup.py install`
+---------------------------------------------------------------------------------------
 
 ## python version 3.10 +
 
