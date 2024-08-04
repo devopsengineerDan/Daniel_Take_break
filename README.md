@@ -25,8 +25,8 @@ follow the instruction carefully
 ---------------------------------------------------------------------------------------
  ## Debugging
   
-Build setup.py  `python3 setup.py build --sdist` `python3 setup.py build --wheel`
-Install setup.py dependencies `python3 setup.py install`
+1. Build setup.py  `python3 setup.py build --sdist` `python3 setup.py build --wheel`
+2. Install setup.py dependencies `python3 setup.py install`
 
 ---------------------------------------------------------------------------------------
 
